@@ -11,4 +11,6 @@
 |
 */
 
-Route::get('index', 'MovieController@index');
+Route::get('movies', 'MovieController@index');
+
+Route::get('movies/{id}', 'MovieController@show');

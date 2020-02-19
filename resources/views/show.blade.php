@@ -7,7 +7,7 @@
 
         <ul>
             <li>{{ $movie->director }} </li>
-            <li>{{ $movie->genre }}</li>
+            <li><a href="/genres/{{$movie->genre}}">{{ $movie->genre }}</a></li>
             <li>{{ $movie->year }}</li>
             <p>{{ $movie->storyline }}</p>
         </ul>
